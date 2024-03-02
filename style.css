@@ -56,14 +56,27 @@ button{
     border-radius: 8px;
     border: 1px solid royalblue;
     color: #f9faf8;
+    width: 120px;
 }
 .content1{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 50px;
 }
+.left-header{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .content2{
     display: flex;
     justify-content: space-around;
+    padding-top: 16px;
+    gap: 50px;
 }
 .knight{
     width: 400px;
